@@ -379,4 +379,22 @@ h1 {
   .contact {
     grid-template-columns: minmax(0, 1fr);
   }
+
+  /* --- Fix orden hero en mobile --- */
+@media (max-width: 768px) {
+  .hero-content {
+    display: flex;
+    flex-direction: column;   /* apila todo en columna */
+  }
+
+  .hero-content > div:first-child {
+    order: 1;                 /* bloque con ES/EN + título primero */
+  }
+
+  .hero-card {
+    order: 2;                 /* tarjeta "In 90 days I can..." debajo */
+    margin-top: 1.5rem;       /* pequeño espacio de respiro */
+  }
+}
+
 }
