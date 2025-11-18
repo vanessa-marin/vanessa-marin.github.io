@@ -397,4 +397,30 @@ h1 {
   }
 }
 
+  /* Ajuste global de la tarjeta del hero */
+.hero-card {
+  margin-top: 0;            /* en desktop, pegada a la parte superior del hero */
+}
+
+/* Mobile: menos espacio entre botones y tarjeta */
+@media (max-width: 768px) {
+  .hero-actions {
+    margin-bottom: 1.25rem;  /* antes probablemente era más grande */
+  }
+
+  .hero-card {
+    margin-top: 1rem;        /* reduce el salto entre botones y tarjeta */
+  }
+}
+
+  /* Menos espacio después del hero */
+.hero {
+  padding-bottom: 3rem;    /* si tenías algo como 5–6rem, esto lo suaviza */
+}
+
+/* Elimina/recorta el margen extra al inicio del primer section */
+.section:first-of-type {
+  padding-top: 2.5rem;     /* en vez de un padding-top muy grande */
+}
+  
 }
