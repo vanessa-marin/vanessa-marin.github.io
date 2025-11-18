@@ -91,6 +91,26 @@ h1 {
   gap: 0.9rem;
 }
 
+.lang-switch {
+  color: #555; /* gris elegante */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.lang-switch:hover {
+  color: #111; /* hover más oscuro */
+}
+
+.lang-switch.active {
+  color: #000; /* idioma actual en negro fuerte */
+  font-weight: 600;
+}
+
+.lang-separator {
+  color: #555;
+  margin: 0 6px;
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
