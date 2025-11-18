@@ -91,27 +91,6 @@ h1 {
   gap: 0.9rem;
 }
 
-.main-nav a {
-  color: rgba(255, 255, 255, 0.85); /* blanco suave */
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-}
-
-.main-nav a:hover {
-  color: #ffffff; /* blanco pleno */
-}
-
-.main-nav .active {
-  color: #ffffff; /* el idioma activo siempre en blanco sólido */
-  font-weight: 600;
-}
-
-.lang-separator {
-  color: rgba(255, 255, 255, 0.6);
-  margin: 0 8px;
-}
-
 .btn {
   display: inline-flex;
   align-items: center;
